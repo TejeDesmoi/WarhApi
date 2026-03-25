@@ -1,0 +1,6 @@
+@WarhApi_HostAddress = http://localhost:5012
+
+GET {{WarhApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
