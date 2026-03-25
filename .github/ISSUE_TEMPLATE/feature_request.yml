@@ -1,0 +1,47 @@
+name: 🚀 Feature Request
+description: Propón una nueva funcionalidad
+title: "[FEATURE] - "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por tu propuesta 🚀  
+        Ayúdanos con la siguiente información.
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: 🎯 Historia de usuario
+      description: Como Rol, Usuario/Desarrollador/Product Manager/etc.,quiero Funcionalidad que se va a construir, para poder Valor/Beneficio que aporta al proyecto.
+    validations:
+      required: true
+
+  - type: textarea
+    id: interfaz
+    attributes:
+      label: 👩🏽‍🎨 Interfaz de usuario
+      description: Imagen de la interfaz si aplica.
+
+  - type: textarea
+    id: Criterios
+    attributes:
+      label: ✅ Criterios de Aceptación
+      description: ¿Esta tarea se considerará terminada y lista para revisión solo si se cumplen todos los criterios siguientes.|
+        ✔️ El código implementa la funcionalidad descrita en el objetivo.
+        ✔️ El código pasa todas las pruebas unitarias/de integración.
+        ✔️ La funcionalidad es documentada en el formato acordado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: referencias
+    attributes:
+      label: 📚Referencias y Recursos
+
+  - type: textarea
+    id: impedimentos
+    attributes:
+      label: 🛑Impedimentos Detectados
