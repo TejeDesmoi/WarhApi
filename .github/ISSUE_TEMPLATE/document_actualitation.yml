@@ -1,0 +1,41 @@
+name: 📝 Documentación
+description: Crear o actualizar documentación
+title: "[DOC] - "
+labels: ["documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentación técnica de la entidad Universo
+  - type: textarea
+    id: problema
+    attributes:
+      label: 🎯 Objetivo
+      description: Documentar para referencia del equipo.
+    validations:
+      required: true
+  - type: textarea
+    id: interfaz
+    attributes:
+      label: 📋 Contenido requerido
+      description: |
+        Crear archivo: 
+        Secciones:
+        
+    validations:
+      required: true
+  - type: textarea
+    id: Criterios
+    attributes:
+      label: ✅ Criterios de Aceptación
+      description: |
+        ✔️ 
+    validations:
+      required: true
+  - type: textarea
+    id: referencias
+    attributes:
+      label: 📚 Referencias
+      placeholder: |
+        Relacionado con: 

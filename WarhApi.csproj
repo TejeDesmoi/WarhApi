@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <None Include=".github\ISSUE_TEMPLATE\bug_report.yml" />
+    <None Include=".github\ISSUE_TEMPLATE\document_actualitation.yml" />
     <None Include=".github\ISSUE_TEMPLATE\feature_request.yml" />
     <None Include=".github\pull_request_template .md" />
   </ItemGroup>
